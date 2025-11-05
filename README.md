@@ -4,6 +4,7 @@
 
 ИНСТРУКЦИЯ ПО ЗАПУСКУ!
 1. В гитхабе нажать code и скопировать ссылку https.
-2. Открыть IDEA. File -> New -> Project from version control. Вставить ссылку и нажать clone.
-3. Открыть File -> Project Structure -> Modules -> Dependencies. Нажать на плюсик и добавить JARs or directories. В окошке указать путь к jade.jar. Нажать ОК.
-4. Можно запускать код
+2. Скачать jade из архива.
+3. Открыть IDEA. File -> New -> Project from version control. Вставить ссылку и нажать clone.
+4. Открыть File -> Project Structure -> Modules -> Dependencies. Нажать на плюсик и добавить JARs or directories. В окошке указать путь к jade.jar. Нажать ОК.
+5. Можно запускать код
