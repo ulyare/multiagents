@@ -175,6 +175,16 @@ public class main {
                             }
                             System.out.println("════════════════════════════════════════");
                             System.out.println("Реальное среднее арифметическое: " + String.format("%.2f", avg));
+                            System.out.println("РАСЧЁТ СТОИМОСТИ:");
+                            System.out.println("Пусть С1 - передача агент-центр (1000р)");
+                            System.out.println("С2 - передача агент-агент(0.1р). ");
+                            System.out.println("С3 - арифметические операции (0.01р)");
+                            System.out.println("С4 - ячейка памяти (1).  ");
+                            System.out.println("С5 - итерация (1).");
+                            System.out.println("С6 - запись в память (0.01).");
+                            System.out.println("Для алгоритма расчёт вычисляется по формуле:");
+                            System.out.println("Q = n*С1 + 6n*C2 + 7n*C3 + (2+n)*C4 + 4*C5 + 6n*C6, где n - количество узлов в сети.");
+                            System.out.println("Для n=7, Q=7018.11 ");
                             allAgentsShouldStop = true;
                         } else {
                             agentsThatKnowAll = 0;
@@ -264,3 +274,7 @@ public class main {
         }
     }
 }
+
+
+
+
